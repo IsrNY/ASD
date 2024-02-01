@@ -1,0 +1,85 @@
+.index{
+    height: 100%;
+    width: 98%;
+    background-image:linear-gradient(white 30%,rgba(50, 50, 204, 0.644));
+    font-family: 'ROBOTO';
+}
+h1{
+    font-size: 25px;
+    text-align: center;
+}
+.INN{
+    height:70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ingresoT{
+    background:linear-gradient(rgb(0, 0, 88),rgb(0, 81, 255));
+    color:white;
+    text-align: center;
+    width: 85%;
+    border-radius: 15%;
+    box-shadow: blue 5px 5px 30px;
+}
+table{
+    text-align: center;
+    margin:auto;
+    vertical-align: auto;
+    padding:20px;
+    width: 100%;
+    height: 100%;
+}
+td{
+    padding:15px;
+}
+.textos{
+    font-size: 15px;
+}
+footer{
+    text-align: center;
+    color:black;
+}
+#Ingreso{
+    padding:10px;
+    cursor: pointer;
+}
+#btnIngreso{
+    padding:5px;
+    cursor: pointer;
+    width: 50%;
+    height: 100%;
+    font:bold;
+    text-shadow: 3px 2px 5px gray;
+    box-shadow: 5px 5px 50px gray;
+}
+.ajuste{ 
+    width: 90%; 
+    height: 100%;
+    text-align: center;
+}
+.negrita{
+    font-weight: bold;
+    font-size: 110%;
+}
+.configBoton{
+    padding:5px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 20%;
+    background-color: darkblue;
+    color:white;
+    font-family: 'ROBOTO';
+    font-weight: bold;
+    font-size: 100%;
+}
+.configBoton:hover{
+    color:black;
+    background-color:white;
+}
+input{
+    border-radius:5px;
+    background-color: rgba(255,255,255);
+    color:darkblue;
+}
