@@ -17,7 +17,7 @@ include 'sessioni.php';
 
 <body class="index">
     <header>
-        <img src="img/header_ithua.png" width="100%">
+        <img src="header_ithua.png" width="100%">
         <h1>Sistema de administración y resguardo documental de formación profesional y docente</h1>
 
     </header>
