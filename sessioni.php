@@ -14,4 +14,3 @@ return isset($_SESSION['funcion']);
 
 session_start();
 usuario_autenticado();
-?>

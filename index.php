@@ -19,7 +19,6 @@ include 'sessioni.php';
     <header>
         <img src="header_ithua.png" width="100%">
         <h1>Sistema de administración y resguardo documental de formación profesional y docente</h1>
-
     </header>
     <div class="INN">
     <section>
@@ -32,11 +31,11 @@ include 'sessioni.php';
                     <tr>
                         <td class="textos">Usuario:</td>
                         <td><input type="text" name="user" id="user"  maxlength="100" 
-                            placeholder="Ejemplo: RFC" class="ajuste">*</td>
+                            placeholder="Nombre de usuario es su RFC" class="ajuste">*</td>
                     </tr>
                     <tr>
                         <td class="textos">Contraseña:</td>
-                        <td><input type="password" name="Pass" id="Pass"  maxlength="100"
+                        <td><input type="password" name="Pass" id="Pass"  maxlength="12"
                             placeholder="Ejemplo: CURP" class="ajuste">*</td>
                     </tr>
                     <tr>
@@ -51,7 +50,7 @@ include 'sessioni.php';
     <footer>
         <small>
             Tecnológico Nacional de México <br> Instituto Tecnológico de Huatabampo
-            <br>2021 Todos los derechos reservados
+            <br>Todos los derechos reservados 2024
         </small>
     </footer>
 </body>

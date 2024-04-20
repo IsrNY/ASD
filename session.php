@@ -14,4 +14,3 @@ session_start();
 usuario_autenticado();
 
 $nombre = $_SESSION['nombre'];
-?>
